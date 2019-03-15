@@ -6,13 +6,10 @@ public class StampMail {
 		Scanner input = new Scanner (System.in);
 		double  weight = 0;
 		
-		while (weight != -1) {
-			
+		while (weight != -1) {	
 		
 		System.out.println(" Enter a weight in ounce for letters to mail out. ");
 		System.out.print(" When you are done entering, please enter -1 to finish: ");
-		
-	
 		
 		weight = input.nextDouble();
 		
@@ -29,8 +26,7 @@ public class StampMail {
 		System.out.print(" Good bye!!");
 		
 		}
-
-		
+	
 	}
 
 
